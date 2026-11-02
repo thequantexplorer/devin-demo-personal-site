@@ -35,7 +35,7 @@ Go to [app.devin.ai](https://app.devin.ai), start a new session, and paste this.
 ```text
 In https://github.com/<you>/devin-demo-personal-site, build a one-page personal website. The repo is empty except for a README and a GitHub Pages workflow. Read README.md first.
 
-Follow the design skill in .agents/skills/design/SKILL.md. The result should look like a finished, polished product, not a default template.
+Follow the repo's design skill. The result should look like a finished, polished product.
 
 About me:
 - Name: Alex Rivera
