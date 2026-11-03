@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Alex Rivera — Software developer</title>
+  <meta name="description" content="Alex Rivera is a software developer in Austin who likes building small, useful tools.">
+  <meta name="color-scheme" content="light dark">
+  <script>
+    (function () {
+      try {
+        var saved = localStorage.getItem("theme");
+        if (saved === "light" || saved === "dark") {
+          document.documentElement.setAttribute("data-theme", saved);
+        }
+      } catch (e) {}
+      document.documentElement.classList.add("js");
+    })();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="wordmark" href="#top" aria-label="Alex Rivera, back to top">AR</a>
+      <button class="theme-toggle" type="button" id="theme-toggle" aria-label="Switch to dark mode">Dark</button>
+    </div>
+  </header>
+
+  <main id="main" class="container">
+    <section class="hero reveal" id="top" aria-labelledby="name">
+      <h1 class="hero__name" id="name">Alex Rivera</h1>
+      <p class="hero__bio">I'm a software developer who likes building small, useful tools. I live in Austin and I'm learning how to work with AI coding agents.</p>
+    </section>
+
+    <section class="section reveal" id="projects" aria-labelledby="projects-label">
+      <h2 class="label" id="projects-label">Projects</h2>
+      <p class="note">These are sample projects. I'll replace them with my own work soon.</p>
+      <ul class="projects">
+        <li>
+          <a class="project" href="https://github.com/thequantexplorer">
+            <span class="project__title">Tiny Timer</span>
+            <span class="project__desc">A distraction-free focus timer that lives in a single browser tab.</span>
+            <span class="project__cta" aria-hidden="true">View</span>
+          </a>
+        </li>
+        <li>
+          <a class="project" href="https://github.com/thequantexplorer">
+            <span class="project__title">Commit Notes</span>
+            <span class="project__desc">A command-line tool that turns a week of git commits into a readable changelog.</span>
+            <span class="project__cta" aria-hidden="true">View</span>
+          </a>
+        </li>
+        <li>
+          <a class="project" href="https://github.com/thequantexplorer">
+            <span class="project__title">Agent Diary</span>
+            <span class="project__desc">A running log of experiments pairing with AI coding agents on real tasks.</span>
+            <span class="project__cta" aria-hidden="true">View</span>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <section class="section reveal" id="contact" aria-labelledby="contact-label">
+      <h2 class="label" id="contact-label">Contact</h2>
+      <a class="contact__email" href="mailto:alex@example.com">alex@example.com</a>
+      <a class="contact__link" href="https://github.com/thequantexplorer">GitHub <span class="contact__handle">@thequantexplorer</span></a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="site-footer__inner">
+        <span>&copy; <span id="year">2026</span> Alex Rivera</span>
+        <span>Austin, Texas</span>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
