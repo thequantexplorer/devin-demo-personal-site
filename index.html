@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Alex Rivera</title>
+  <meta name="description" content="Alex Rivera is a software developer in Austin who likes building small, useful tools.">
+  <meta name="color-scheme" content="light dark">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-bar">
+      <a class="brand" href="#top">AR</a>
+      <nav class="site-nav" aria-label="Sections">
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Switch to dark mode">
+        <span class="theme-toggle-icon" aria-hidden="true"></span>
+        <span class="theme-toggle-text">Dark mode</span>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero container" aria-labelledby="name">
+      <h1 id="name">Alex Rivera</h1>
+      <p class="bio">I'm a software developer who likes building small, useful tools. I live in Austin and I'm learning how to work with AI coding agents.</p>
+    </section>
+
+    <section id="projects" class="section container" aria-labelledby="projects-title">
+      <h2 id="projects-title">Projects</h2>
+      <p class="note">These are sample projects. I will replace them with my own soon.</p>
+      <ul class="project-list">
+        <li class="card">
+          <h3>Tiny Timer</h3>
+          <p>A minimal countdown timer that lives in a single browser tab.</p>
+          <a href="https://github.com/thequantexplorer">View project <span aria-hidden="true">&rarr;</span></a>
+        </li>
+        <li class="card">
+          <h3>Link Shelf</h3>
+          <p>A small command-line tool that saves and tags links you want to read later.</p>
+          <a href="https://github.com/thequantexplorer">View project <span aria-hidden="true">&rarr;</span></a>
+        </li>
+        <li class="card">
+          <h3>Agent Notes</h3>
+          <p>A running log of what I learn while pairing with AI coding agents.</p>
+          <a href="https://github.com/thequantexplorer">View project <span aria-hidden="true">&rarr;</span></a>
+        </li>
+      </ul>
+    </section>
+
+    <section id="contact" class="section container" aria-labelledby="contact-title">
+      <h2 id="contact-title">Contact</h2>
+      <p>The best way to reach me is by email. You can also find my code on GitHub.</p>
+      <ul class="contact-list">
+        <li><a href="mailto:alex@example.com">alex@example.com</a></li>
+        <li><a href="https://github.com/thequantexplorer">github.com/thequantexplorer</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year">2026</span> Alex Rivera</p>
+    </div>
+  </footer>
+</body>
+</html>
